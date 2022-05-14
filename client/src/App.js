@@ -1,6 +1,6 @@
 import "./App.css";
 import Navbar from "./Component/Navbar/Navbar";
-import Utama from "./Component/Utama/Utama";
+import Pengumuman from "./Component/Pengumuman/Pengumuman";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <br />
       <br />
       <br />
-      <Utama />
+      <Pengumuman />
     </div>
   );
 }

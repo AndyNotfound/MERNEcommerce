@@ -4,7 +4,7 @@ import iconCari from "../img/iconCari.png";
 import menuIcon from "../img/menu.svg";
 import cart from "../img/cart.png";
 import MenuMobile from "./menuMobile";
-import { setup } from "../../config";
+import setup from "../../setup";
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
@@ -13,11 +13,11 @@ const Navbar = () => {
     console.log(toggleMenu);
   };
   return (
-    <nav className="fixed">
+    <nav className="fixed z-50">
       <div className="flex p-7 bg-blue-50 items-center w-screen justify-between">
         <div className="hidden md:flex items-center">
           <img src={dummyLogo} className="h-10 hidden md:block" />
-          <h1 className="pl-3 hidden md:block ">{setup.namaApp}</h1>
+          <h1 className="pl-3 hidden md:block ">{setup.setup.namaApp}</h1>
         </div>
         <form action="" className="flex items-center">
           <input

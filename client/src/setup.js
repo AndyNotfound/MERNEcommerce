@@ -1,5 +1,6 @@
 const setup = {
   namaApp: "TOKOPAKEDI",
+  login: false,
 };
 
-module.exports = { setup };
+export default { setup };
