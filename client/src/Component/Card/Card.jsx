@@ -17,6 +17,8 @@ const Card = (props) => {
         <p className="text-yellow-400 text-3xl">&#9733;</p>
         <p className="text-yellow-400 text-3xl">&#9733;</p>
       </div>
+
+      {/* Menambahkan props agar cardnya lebih dinamis */}
       <p className="ml-2">{props.price}</p>
       <div className="w-full flex mt-2">
         <button className="hover:shadow-lg bg-green-400 text-base font-semibold text-white py-1 px-4 rounded-lg block ml-auto mr-2">
