@@ -4,7 +4,7 @@
 
 @layer components {
   .tombol {
-    @apply bg-biru1 p-3 pr-5 pl-5 rounded-lg hover:rounded-xl hover:bg-biru3;
+    @apply p-3 pr-5 pl-5 rounded-lg hover:rounded-xl;
   }
 }
 
