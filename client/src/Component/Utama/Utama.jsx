@@ -18,7 +18,7 @@ function Utama() {
     <div className="w-[90%] px-4 py-2 mx-auto">
       <h1 className="font-semibold text-2xl text-slate-800">Produk Populer</h1>
 
-      <Swiper>
+      <Swiper slidesPerView={3}>
         <SwiperSlide className="m-5">
           <div className="p-3 w-full flex items-center border-2 rounded-xl justify-center hover:bg-green-400">
             <p className="text-slate-800">Handphone dan Tablet</p>
